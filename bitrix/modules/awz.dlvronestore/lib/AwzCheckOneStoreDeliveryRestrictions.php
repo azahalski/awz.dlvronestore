@@ -8,7 +8,7 @@ Loader::includeModule('sale');
 
 Loc::loadMessages(__FILE__);
 
-class AwzCheckOneStoreDeliveryRestrictions extends Bitrix\Sale\Delivery\Restrictions\Base {
+class AwzCheckOneStoreDeliveryRestrictions extends \Bitrix\Sale\Delivery\Restrictions\Base {
 
     public static $msg = "";
     public static $msg2 = "";
